@@ -8,12 +8,12 @@
     "outputPath": null
   },
   "test": {
-    "enabled": true,
+    "enabled": false,
     "path": null
   },
   "archive": {
-    "registry": "docker.io",
-    "repository": "edwardsdl/sample-java"
+    "registry": "paulojesousa",
+    "repository": "paulojesousa/sample-java"
   },
   "deploy": {
     "containerPort": 8080
