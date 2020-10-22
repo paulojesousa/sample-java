@@ -12,7 +12,7 @@
     "path": null
   },
   "archive": {
-    "registry": "paulojesousa",
+    "registry": "",
     "repository": "sample-java"
   },
   "deploy": {
