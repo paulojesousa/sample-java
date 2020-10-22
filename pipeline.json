@@ -12,8 +12,8 @@
     "path": null
   },
   "archive": {
-    "registry": "",
-    "repository": "sample-java"
+    "registry": "docker.io",
+    "repository": "paulojesousa/sample-java"
   },
   "deploy": {
     "containerPort": 8080
