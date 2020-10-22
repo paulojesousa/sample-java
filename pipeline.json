@@ -13,7 +13,7 @@
   },
   "archive": {
     "registry": "paulojesousa",
-    "repository": "paulojesousa/sample-java"
+    "repository": "sample-java"
   },
   "deploy": {
     "containerPort": 8080
