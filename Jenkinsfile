@@ -1,10 +1,7 @@
 node('docker') {
 
-stages {
-        stage('Build') { 
-            steps {
-                sh '/stages/02_build.sh' 
-            }
-        }
-    }
+    stage 'Checkout'
+        checkout scm
+    stage 'Build'
+		sh "/stages/02_build.sh"
 }
