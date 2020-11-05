@@ -1,7 +1,7 @@
 env.GITHUB_URL = 'https://github.com/paulojesousa/sample-java.git'
 node('docker') {
 
-echo $GITHUB_URL
+echo $env.GITHUB_URL
 
 	stage('Clone') {
 		sh "/stages/01_clone.sh"
