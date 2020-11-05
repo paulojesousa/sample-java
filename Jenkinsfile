@@ -1,6 +1,5 @@
+env.GITHUB_URL = 'https://github.com/paulojesousa/sample-java.git'
 node('docker') {
-
-	def GITHUB_URL  = 'https://github.com/paulojesousa/sample-java.git'
 
 	stage('Clone') {
 		sh "/stages/01_clone.sh"
