@@ -1,5 +1,5 @@
 pipeline { 
-    docker
+    agent docker
     stages {
         stage('Clone') { 
             steps { 
