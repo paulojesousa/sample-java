@@ -8,4 +8,16 @@ node('docker') {
 	stage('Build') {
 		sh "/stages/02_build.sh"
 	}
+	
+	stage('Test') {
+		sh "/stages/03_test.sh"
+	}
+	
+	stage('Archive') {
+		sh "/stages/04_archive.sh"
+	}
+	
+	stage('Deploy') {
+		sh "/stages/05_deploy.sh"
+	}
 }
