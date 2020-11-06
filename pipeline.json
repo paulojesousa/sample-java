@@ -12,10 +12,10 @@
     "path": null
   },
   "archive": {
-    "registry": "docker.io",
+    "registry": "paulojesousa",
     "repository": "paulojesousa/sample-java"
   },
   "deploy": {
-    "containerPort": 8080
+    "containerPort": 8081
   }
 }
