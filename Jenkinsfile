@@ -1,6 +1,6 @@
 env.GITHUB_URL = 'https://github.com/paulojesousa/sample-java.git'
-env.DOCKER_USERNAME = 'admin'
-env.DOCKER_PASSWORD = 'admin'
+env.DOCKER_USERNAME = 'paulojesousa'
+env.DOCKER_PASSWORD = 'psxpdit25pjes'
 
 node('docker') {
 
