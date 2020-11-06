@@ -1,4 +1,7 @@
 env.GITHUB_URL = 'https://github.com/paulojesousa/sample-java.git'
+env.DOCKER_USERNAME = 'admin'
+env.DOCKER_PASSWORD = 'admin'
+
 node('docker') {
 
 	stage('Clone') {
