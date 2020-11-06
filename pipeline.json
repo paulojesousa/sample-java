@@ -16,6 +16,6 @@
     "repository": "sample-java"
   },
   "deploy": {
-    "containerPort": 8081
+    "containerPort": 8080
   }
 }
