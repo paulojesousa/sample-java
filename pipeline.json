@@ -12,8 +12,8 @@
     "path": null
   },
   "archive": {
-    "registry": null,
-    "repository": "paulojesousa/sample-java"
+    "registry": "paulojesousa",
+    "repository": "sample-java"
   },
   "deploy": {
     "containerPort": 8081
